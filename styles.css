@@ -1,0 +1,302 @@
+:root {
+    color: white;
+}
+
+body {
+
+    background-color: #1c1c21;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+
+
+}
+
+.texto {
+    color: white;
+    font-size: 22px;
+
+}
+
+.banner {
+
+    height: 600px;
+    background-image: url('Imagens/banner3.png');
+    background-size: contain;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+}
+
+.divmain {
+    margin: 0 auto;
+    width: 60%;
+    height: fit-content;
+
+}
+
+.poster {
+    z-index: 1;
+    width: 250px;
+    height: 400px;
+
+    position: absolute;
+    top: 50%;
+    left: 24%;
+
+    background-image: url('Imagens/imagem-icone.jpg');
+    background-size: cover;
+
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.603)
+}
+
+
+.Texto {
+
+    height: 300px;
+    margin-left: 30%;
+    margin-right: 5%;
+    color: white;
+    margin-top: -9%;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    text-align: justify
+}
+
+.titulo {
+
+    font-size: 80px;
+    margin-right: 15px;
+    color: #CD1B31;
+    font-family: 'Mobsters', sans-serif;
+
+}
+
+.alinhamento_titulo {
+    display: flex;
+    align-items: center;
+
+}
+
+.ano_directed {
+
+    font-size: 17px;
+    top: 16px;
+    font-family: 'Poppins';
+}
+
+.subt {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.trailer {
+    margin-top: 700px;
+    text-align: center;
+    padding: 10px;
+    background-color: #2c2c34;
+    border-radius: 10px;
+    font-size: 16px;
+    position: absolute
+}
+
+.info {
+    margin-top: 50px;
+    margin-left: 90px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.avaliacao {
+    text-align: right;
+    background-color: #2c2c34;
+    margin-left: 60px;
+    padding: 7px;
+    border-radius: 10px;
+
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+.estrela {
+    color: #f6ca2a;
+    font-size: 20px;
+    position: relative;
+    line-height: 0.3;
+
+
+}
+
+.navbar {
+    background-color: #2c2c34;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #CD1B31;
+    color: white;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.ator {
+    background-color: #2c2c34;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    flex: 0 0 16%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.ator img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.ator p {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-size: 12px;
+    color: #7a7a7a;
+    margin-top: 2px;
+    font-weight: normal !important;
+}
+
+.comentarios {
+    margin-top: 200px;
+    padding: 20px;
+    width: 100%;
+    max-width: 960px; 
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+
+.comentarios h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.comentario {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comentario:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.8);
+}
+
+.comentario-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.autor {
+    font-size: 18px;
+    font-weight: bold;
+    color: #CD1B31;
+}
+
+.data {
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+.texto {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #CD1B31;
+    color: white;
+}
